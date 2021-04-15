@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+.Background {
+    background: /*url("../../assets/images/home_page.jpg") no-repeat center/cover*/ white;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+}

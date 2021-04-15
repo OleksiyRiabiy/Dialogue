@@ -1,0 +1,125 @@
+.Container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  background: url("../../assets/images/body-bg.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactPage {
+  width: 100%;
+  max-width: 1400px;
+  padding: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Title {
+  width: 100%;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  color: #322;
+  font-size: 60px;
+}
+
+.ContactInfo,
+.ContactForm {
+  flex: 1;
+}
+
+.Item {
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: #322;
+}
+
+.ContainerIcon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #3494db;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.Icon {
+  width: 33%;
+  height: 33%;
+}
+
+.ContactForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Input {
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  background-color: #222;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.TextArea {
+  width: 100%;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  padding: 12px;
+  background-color: #222;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Button {
+  width: 120px;
+  height: 40px;
+  margin-left: auto;
+  background-color: #3494db;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid #3494db;
+  transition: 0.3s linear;
+}
+
+.Button:hover {
+  background-color: transparent;
+  color: #3494db;
+}
+
+@media screen and (max-width: 980px) {
+  .ContactPage {
+    max-width: 800px;
+  }
+
+  .Title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .ContactInfo,
+  .ContactForm {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+
+  .Input {
+    width: 100%;
+  }
+}
